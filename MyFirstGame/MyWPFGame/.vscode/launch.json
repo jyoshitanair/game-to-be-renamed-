@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch WPF App",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/MyFirstGame/MyWPFGame/bin/Debug/net10.0-windows/MyWPFGame.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}/MyFirstGame/MyWPFGame",
+      "stopAtEntry": false,
+      "console": "integratedTerminal"
+    }
+  ]
+}
